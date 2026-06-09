@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA — 22 ans de lumière</title>
+    <meta name="description" content="Un site d'anniversaire pour Aminata, 22 ans de beauté, de résilience et d'amour.">
+
+    <!-- Vercel Analytics -->
+    <script defer src="/_vercel/insights/script.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500;600&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      // Remplace TA_PUBLIC_KEY par la clé que tu viens de copier
+      emailjs.init("xjYbAKNcFgcdY2-pZ"); 
+   })();
+</script>
+</head>
+<body>
+
+    <!-- Overlay de chargement poétique -->
+    <div id="loader" class="loader">
+        <div class="loader-text">
+            <span class="loader-letter">P</span>
+            <span class="loader-letter">r</span>
+            <span class="loader-letter">é</span>
+            <span class="loader-letter">p</span>
+            <span class="loader-letter">a</span>
+            <span class="loader-letter">r</span>
+            <span class="loader-letter">a</span>
+            <span class="loader-letter">t</span>
+            <span class="loader-letter">i</span>
+            <span class="loader-letter">o</span>
+            <span class="loader-letter">n</span>
+            <span class="loader-letter">&nbsp;</span>
+            <span class="loader-letter">d</span>
+            <span class="loader-letter">'</span>
+            <span class="loader-letter">u</span>
+            <span class="loader-letter">n</span>
+            <span class="loader-letter">&nbsp;</span>
+            <span class="loader-letter">s</span>
+            <span class="loader-letter">o</span>
+            <span class="loader-letter">u</span>
+            <span class="loader-letter">v</span>
+            <span class="loader-letter">e</span>
+            <span class="loader-letter">n</span>
+            <span class="loader-letter">i</span>
+            <span class="loader-letter">r</span>
+            <span class="loader-letter">.</span>
+            <span class="loader-letter">.</span>
+            <span class="loader-letter">.</span>
+        </div>
+        <div class="loader-heart">💜</div>
+    </div>
+
+    <!-- Cœurs flottants subtils en background -->
+    <div id="floating-hearts-container" class="floating-hearts-container"></div>
+
+    <!-- Navigation -->
+    <nav class="main-nav" id="mainNav">
+        <div class="nav-brand">MA</div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero" data-section="home">HOME</a></li>
+            <li><a href="#verset" data-section="verset">Lumière</a></li>
+            <li><a href="#timeline" data-section="histoire">Notre Histoire</a></li>
+            <li><a href="#gallery" data-section="souvenirs">Souvenirs</a></li>
+            <li><a href="#raisons" data-section="22raisons">22 Raisons</a></li>
+            <li><a href="#lettre" data-section="lettre">Ma Lettre</a></li>
+            <li><a href="#souvenirs-form" data-section="souvenirs-form">Ton Histoire</a></li>
+        </ul>
+    </nav>
+
+    <!-- ==================== HERO ==================== -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-particles" id="heroParticles"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-letters" id="heroLetters">
+                <span class="hero-letter" data-delay="0">A</span>
+                <span class="hero-letter" data-delay="200">M</span>
+                <span class="hero-letter" data-delay="400">I</span>
+                <span class="hero-letter" data-delay="600">N</span>
+                <span class="hero-letter" data-delay="800">A</span>
+                <span class="hero-letter" data-delay="1000">T</span>
+                <span class="hero-letter" data-delay="1200">A</span>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="typewriter" id="heroTypewriter"></span>
+                <span class="cursor">|</span>
+            </h1>
+
+            <div class="hero-subtitle">
+                <p class="fade-in-up" data-delay="2500">22 ans <span class="age-joke">(68, tu es vieille 😂)</span></p>
+                <p class="hero-tagline fade-in-up" data-delay="3000">de résilience, de douceur et de lumière</p>
+            </div>
+
+            <div class="hero-cta fade-in-up" data-delay="3500">
+                <a href="#welcome" class="btn-primary">
+                    <span>Découvrir</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="hero-quote fade-in-up" data-delay="4000">
+                <p>"khorei kawma"</p>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- ==================== MESSAGE D'ACCUEIL ==================== -->
+    <section id="welcome" class="welcome section">
+        <div class="container">
+            <div class="welcome-content">
+                <div class="welcome-text">
+                    <h2 class="section-title typewriter-trigger" data-text="Im so thankful for having you in my life"></h2>
+                    <div class="welcome-body">
+                        <p class="typewriter-paragraph" data-text="Aminata, Sirah, Xodeeram, Marie Etchebest... tous ces noms qui te définissent, et pourtant aucun ne suffit à capturer qui tu es vraiment."></p>
+                        <p class="typewriter-paragraph" data-text="Ce site est un fragment de mon cœur, numérisé avec amour. Chaque pixel, chaque ligne de code, chaque animation a été pensé pour toi."></p>
+                        <p class="typewriter-paragraph" data-text="Parce que tu mérites bien plus qu'un simple 'Joyeux Anniversaire'. Tu mérites une histoire qui te ressemble."></p>
+                    </div>
+                    <div class="welcome-signature">
+                        <span class="signature-line">— I love you To the moon, beyond and never back</span>
+                    </div>
+                </div>
+                <div class="welcome-visual">
+                    <!-- REMPLACER : Photo préférée d'Aminata ici -->
+                    <div class="photo-frame" data-photo="welcome-main">
+                        <div class="photo-placeholder">
+                            <img src="assets\images\special.jpg" alt=""> 
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== VERSET CORANIQUE (déplacé ici) ==================== -->
+    <section id="verset" class="verset-section section">
+        <div class="container">
+            <div class="verset-wrapper">
+                <div class="verset-icon">🌙</div>
+                <h2 class="verset-title">Lumière dans les Moments de Doute</h2>
+                <p class="verset-subtitle">Ton leitmotiv, ta force, ta paix</p>
+
+                <div class="verset-card">
+                    <div class="verset-arabic">
+                        <p>وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًۭا</p>
+                    </div>
+
+                    <div class="verset-info">
+                        <span class="verset-ref">Sourate Al-Ahzab, Verset 3</span>
+                    </div>
+
+                    <!-- Transcriptions textuelles uniquement -->
+                    <div class="verset-translations">
+                        <div class="translation-tab" data-lang="fr">
+                            <p class="verset-fr">« Et place ta confiance en Allah, car Allah suffit comme Protecteur des affaires. »</p>
+                        </div>
+                        <div class="translation-tab" data-lang="en">
+                            <p class="verset-en">« And put your trust in Allah, for Allah is sufficient as a Trustee of Affairs. »</p>
+                        </div>
+                    </div>
+
+                    <div class="verset-audio">
+                        <p class="audio-label">Écouter ce verset en arabe :</p>
+
+                        <div class="reciters">
+                            <button class="reciter-btn active" data-reciter="hussary" data-src="assets\audio\Hussary.mp3">
+                                <span class="reciter-name">Mahmoud Khalil Al-Hussary</span>
+                            </button>
+                            <button class="reciter-btn" data-reciter="sudais" data-src="assets\audio\Sudais.mp3">
+                                <span class="reciter-name">Abdul Rahman Al-Sudais</span>
+                            </button>
+                            <button class="reciter-btn" data-reciter="Ajmy" data-src="assets\audio\Ajmy.mp3">
+                                <span class="reciter-name">Al Ajmy</span>
+                            </button>
+                        </div>
+                        <audio id="quranAudio" controls preload="none">
+                            <source src="assets\audio\Hussary.mp3" type="audio/mpeg">
+                            Ton navigateur ne supporte pas l'audio.
+                        </audio>
+                    </div>
+                </div>
+
+                <div class="verset-message">
+                    <p>Quand les doutes s'installent, quand les temps sont durs,<br>reviens ici. Écoute. Respire. Confie-toi.<br>Allah est suffisant comme Protecteur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TIMELINE ==================== -->
+    <section id="timeline" class="timeline-section section">
+        <div class="container">
+            <h2 class="section-title center">Notre Histoire</h2>
+            <p class="section-subtitle center">Chaque moment a compté. Chaque seconde t'a rapprochée de moi.</p>
+
+            <div class="timeline" id="timelineContainer">
+
+                <!-- Event 1 -->
+                <div class="timeline-item" data-date="Avant le 09/09/2024">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Le Crush</div>
+                        <h3>Silencieux... mais pas tant que ça</h3>
+                        <p>Tu étais ma crush avant même qu'on se parle. Des regards, des discussions passagères ici et là, sans importance apparente. Je savais sans le savoir.</p>
+                    </div>
+                </div>
+
+                <!-- Event 2 -->
+                <div class="timeline-item" data-date="09/09/2024">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">09 Septembre 2024</div>
+                        <h3>La Course</h3>
+                        <p>Notre première rencontre réelle. Tu m'as demandé d'aller à la pharmacie pour toi en revenant. Une course simple, banale même. Et pourtant... le début de tout. Le premier vrai moment où nos mondes se sont touchés.</p>
+                    </div>
+                </div>
+
+                <!-- Event 3 -->
+                <div class="timeline-item" data-date="05/04/2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">5 Avril 2025</div>
+                        <h3>La Confirmation</h3>
+                        <p>Je t'ai contactée pour te dire que tu t'étais mariée sans me le dire. Tu as envoyé tes photos le soir. Et là, dans cette lumière de téléphone, mon crush s'est transformé en certitude. Tu étais belle, tu es belle, tu seras toujours belle.</p>
+                    </div>
+                </div>
+
+                <!-- Event 4 -->
+                <div class="timeline-item" data-date="Mai 2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Mai 2025</div>
+                        <h3>Les Discussions s'Accentuent</h3>
+                        <p>Le temps passait, et nos conversations devenaient plus longues, plus profondes, plus vraies. Chaque message construisait un pont entre nous deux.</p>
+                    </div>
+                </div>
+
+                <!-- Event 5 -->
+                <div class="timeline-item" data-date="Juin 2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Juin 2025</div>
+                        <h3>Tabaski & Anniversaire</h3>
+                        <p>Le mois de juin avec la Tabaski, puis ton anniversaire. On continuait à se parler H24, mais de manière plus sérieuse maintenant. Les blagues laissaient place aux confidences, les emojis aux vrais mots.</p>
+                        <!-- REMPLACER : Photos/vidéos de cette période -->
+                        <div class="timeline-media" data-photo="juin-2025"> <img src="assets\images\Tabaski1.jpg" alt=""> </div>
+                    </div>
+                </div>
+
+                <!-- Event 6 -->
+                <div class="timeline-item" data-date="Début Juillet 2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Début Juillet 2025</div>
+                        <h3>Le Tiramisu</h3>
+                        <p>Un moment simple, sucré, parfait. Comme toi. Une attention particulière.</p>
+                        <!-- REMPLACER : Photo du tiramisu -->
+                        <div class="timeline-media" data-photo="tiramisu"><img src="assets\images\Tiramisu.jpg" alt=""> </div>
+                    </div>
+                </div>
+
+                <!-- Event 7 -->
+                <div class="timeline-item" data-date="10/07/2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">10 Juillet 2025</div>
+                        <h3>Première Promenade</h3>
+                        <p>À la fin de ton cours, jusqu'à la Brioche Dorée. Nos pas résonnaient ensemble sur le trottoir. C'était la première fois que je marchais à tes côtés, et déjà je ne voulais plus m'arrêter.</p>
+                        
+                        
+                    </div>
+                </div>
+
+                <!-- Event 8 -->
+                <div class="timeline-item highlight" data-date="25/07/2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">25 Juillet 2025 💜</div>
+                        <h3>L'Officialisation</h3>
+                        <p>Le groupe. Le premier début de l'aventure. Ce jour où ce qui était évident pour nos cœurs est devenu réel. Notre histoire avait commencé bien avant, mais ce jour-là, elle a pris son nom.</p>
+                    
+                    </div>
+                </div>
+
+                <!-- Event 9 -->
+                <div class="timeline-item" data-date="02/08/2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2 Août 2025</div>
+                        <h3>Mariage Amedane</h3>
+                        <p>Ton outfit qui tue. Je me souviens encore de la façon dont tu brillais ce jour-là. Pas besoin de lumière quand tu es dans la pièce.</p>
+                        <
+                        <div class="timeline-media" data-photo="mariage-amedane"> <video src="assets\videos\Amedane_wed.mp4"></video> </div>
+                    </div>
+                </div>
+
+                <!-- Event 10 -->
+                <div class="timeline-item" data-date="04/11/2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">4 Novembre 2025</div>
+                        <h3>Premier Vrai Date — Calm Coffee</h3>
+                        <p>Notre premier vrai date au Calm Coffee. Le café n'était pas le plus important. C'était toi, en face de moi, réelle, présente, parfaite.</p>
+                        
+                        <div class="timeline-media" data-photo="calm-coffee"><img src="assets\images\calm.jpg" alt="Calm Coffee"></div>
+                    </div>
+                </div>
+
+                <!-- Event 11 -->
+                <div class="timeline-item highlight" data-date="22/11/2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">22 Novembre 2025 ✨</div>
+                        <h3>Le Date Ultime — Parc Hann</h3>
+                        <p>Veille de mon anniversaire. L'après-midi au Parc de Hann. Je n'ai pas les mots pour cette journée. Les tableaux qu'on a peints (Toyota), les rires, le soleil, toi. Juste toi. Le plus beau souvenir.</p>
+                        
+                        <div class="timeline-media" data-photo="parc-hann"><img src="assets\images\parc.jpg" alt="Parc Hann"></div>
+                    </div>
+                </div>
+
+                <!-- Event 12 -->
+                <div class="timeline-item" data-date="28/11/2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">28 Novembre 2025 🇫🇷</div>
+                        <h3>Départ pour la Macronie</h3>
+                        <p>Tu partais pour la France. J'ai suivi ton vol en live sur le téléphone, chaque kilomètre qui t'éloignait me rappelait combien tu comptais. Le drapeau français n'a jamais autant signifié l'absence et l'espoir à la fois.</p>
+                        <!-- REMPLACER : Capture d'écran du vol en live + drapeau France -->
+                        <div class="timeline-media" data-photo="depart-france"> <img src="assets\images\vol_paris.jpg" alt="Départ pour la France"> </div>
+                    </div>
+                </div>
+
+                <!-- Event 13 -->
+                <div class="timeline-item" data-date="01/01/2026">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">1er Janvier 2026</div>
+                        <h3>Retour de France</h3>
+                        <p>Tu revenais. Pas de feux d'artifice qui valent ton sourire.</p>
+                        <!-- REMPLACER : Capture d'écran du retour -->
+                        <div class="timeline-media" data-photo="retour-france"> <img src="assets\images\Vol_dakar.jpg" alt="Retour de France"> </div>
+                    </div>
+                </div>
+
+                <!-- Event 14 -->
+                <div class="timeline-item dark" data-date="31/01/2026">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">31 Janvier 2026</div>
+                        <h3>À Oublier</h3>
+                        <p> Mais je les mentionne parce qu'elles font partie de nous aussi..</p>
+                    </div>
+                </div>
+
+                <!-- Event 15 -->
+                <div class="timeline-item" data-date="Entre-temps">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Tous les jours</div>
+                        <h3>Les Soirées Ciné, les Appels, les Rires</h3>
+                        <p>Des dizaines de soirées ciné sur RAVE. "Danio cas ba soon". Nos centaines d'appels, nos heures de discussions et de rires. Ce n'était pas du temps passé, c'était de la vie partagée.</p>
+                        <!-- REMPLACER : Screenshots RAVE, captures d'appels -->
+                        <div class="timeline-media" data-photo="soirees-rave"> <img src="assets\images\Rave.jpg" alt="Soirées RAVE"> </div>
+                    </div>
+                </div>
+
+                <!-- Event 16 -->
+                <div class="timeline-item" data-date="03/04/2026">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">3 Avril 2026</div>
+                        <h3>Résolution d'Enquête #1</h3>
+                        <p>Quand on joue les détectives ensemble. Delit de facies.</p>
+                        <div class="timeline-media" data-photo="enquete1"> <img src="assets\images\sarayi.jpg" alt="Enquête #1"> </div>
+                    </div>
+                </div>
+
+                <!-- Event 17 -->
+                <div class="timeline-item" data-date="29/04/2026">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">29 Avril 2026</div>
+                        <h3>Résolution d'Enquête #2</h3>
+                        <p>Elle est moche donc c'est elle.</p>
+                    </div>
+                </div>
+
+                <!-- Event 18 -->
+                <div class="timeline-item future" data-date="Aujourd'hui">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Aujourd'hui & Toujours</div>
+                        <h3>22 Ans de Toi</h3>
+                        <p>Et maintenant, on écrit la suite. Ensemble. Toujours.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== GALERIE PHOTO ==================== -->
+    <section id="gallery" class="gallery-section section">
+        <div class="container">
+            <h2 class="section-title center">Nos Souvenirs en Images</h2>
+            <p class="section-subtitle center">~10 photos qui racontent mieux que les mots</p>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- REMPLACER : Ajouter/modifier les photos dans assets/images/ -->
+
+                <div class="gallery-item" data-src="assets\images\mariage_rose.jpg" data-caption="Notre première photo ensemble">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <p></p>
+                        <small> <img src="assets\images\mariage_rose.jpg" alt=""></small>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-src="assets\images\parcOK.jpg" data-caption="Le sourire qui illumine tout">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <p>Photo 2</p>
+                        <small> <img src="assets\images\parcOK.jpg" alt=""></small>
+                    </div>
+                </div>
+
+                <div class="gallery-item wide" data-src="assets/images/photo3.jpg" data-caption="Un moment parfait">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <p></p>
+                        <small> <img src="assets\images\tablette.jpg" alt=""></small>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-src="assets/images/photo4.jpg" data-caption="Toi, simplement toi">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <p>Photo 4</p>
+                        <small> <img src="assets\images\parc.jpg" alt=""></small>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-src="assets/images/photo5.jpg" data-caption="Nos rires">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <p>Boul xarou bébé</p>
+                        <small><img src="assets\images\white.jpg" alt=""></small>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox">
+            <button class="lightbox-close" aria-label="Fermer">&times;</button>
+            <button class="lightbox-prev" aria-label="Précédent">&#8249;</button>
+            <img src="" alt="" id="lightboxImg">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+            <button class="lightbox-next" aria-label="Suivant">&#8250;</button>
+        </div>
+    </section>
+
+    <!-- ==================== VIDÉOS ==================== -->
+    <section id="videos" class="videos-section section">
+        <div class="container">
+            <h2 class="section-title center">Le rayon de lumière que tu apportes</h2>
+            <p class="section-subtitle center">Parce que certains souvenirs bougent, rient, vivent</p>
+
+            <div class="videos-grid">
+                <!-- REMPLACER : Ajouter les vidéos dans assets/videos/ -->
+
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video controls poster="assets/videos/poster1.jpg" preload="metadata">
+                            <source src="assets\videos\video_pref.mp4" type="video/mp4">
+                            Ton navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                    </div>
+                    <p class="video-caption">Peut-être ma vidéo préférée</p>
+                    <small>assets/videos/video1.mp4</small>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video controls poster="assets/videos/poster2.jpg" preload="metadata">
+                            <source src="assets\videos\blue_bureau.mp4" type="video/mp4">
+                            Ton navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                    </div>
+                    <p class="video-caption">Sokhor Moussor</p>
+                    <small></small>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video controls poster="assets/videos/poster3.jpg" preload="metadata">
+                            <source src="assets\videos\white_sol.mp4" type="video/mp4">
+                            Ton navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                    </div>
+                    <p class="video-caption">Sun meets sun</p>
+                    <small></small>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 22 RAISONS ==================== -->
+    <section id="raisons" class="raisons-section section">
+        <div class="container">
+            <h2 class="section-title center">22 Raisons Pour Lesquelles Je T'aime</h2>
+            <p class="section-subtitle center">Une pour chaque année de lumière que tu apportes au monde</p>
+
+            <div class="raisons-grid" id="raisonsGrid">
+
+                <div class="raison-card" data-number="1">
+                    <div class="raison-number">01</div>
+                    <div class="raison-text">Ta résilience qui m'épate chaque jour</div>
+                </div>
+
+                <div class="raison-card" data-number="2">
+                    <div class="raison-number">02</div>
+                    <div class="raison-text">Ta confiance en toi qui te rend si forte</div>
+                </div>
+
+                <div class="raison-card" data-number="3">
+                    <div class="raison-number">03</div>
+                    <div class="raison-text">Ta sincérité brute et rare</div>
+                </div>
+
+                <div class="raison-card" data-number="4">
+                    <div class="raison-number">04</div>
+                    <div class="raison-text">Ta personnalité captivante qui m'a happé dès le premier regard</div>
+                </div>
+
+                <div class="raison-card" data-number="5">
+                    <div class="raison-number">05</div>
+                    <div class="raison-text">Ta culture peulh que tu portes avec tant de fierté</div>
+                </div>
+
+                <div class="raison-card" data-number="6">
+                    <div class="raison-number">06</div>
+                    <div class="raison-text">Les cours (si je peux les appeler ainsi) de Pulaar.</div>
+                </div>
+
+                <div class="raison-card" data-number="7">
+                    <div class="raison-number">07</div>
+                    <div class="raison-text">Ta spiritualité profonde et authentique</div>
+                </div>
+
+                <div class="raison-card" data-number="8">
+                    <div class="raison-number">08</div>
+                    <div class="raison-text">Ta passion pour les podcasts et les thrillers</div>
+                </div>
+
+                <div class="raison-card" data-number="9">
+                    <div class="raison-number">09</div>
+                    <div class="raison-text">Ton rire qui résonne comme une mélodie dans ma tête</div>
+                </div>
+
+                <div class="raison-card" data-number="10">
+                    <div class="raison-number">10</div>
+                    <div class="raison-text">La façon dont tu dis "khorei kawma"</div>
+                </div>
+
+                <div class="raison-card" data-number="11">
+                    <div class="raison-number">11</div>
+                    <div class="raison-text">Ton côté girly et romantique qui fond mon cœur</div>
+                </div>
+
+                <div class="raison-card" data-number="12">
+                    <div class="raison-number">12</div>
+                    <div class="raison-text">Ta capacité à me comprendre sans que je parle</div>
+                </div>
+
+                <div class="raison-card" data-number="13">
+                    <div class="raison-number">13</div>
+                    <div class="raison-text">Les soirées ciné sur RAVE qui sont devenues nos rendez-vous </div>
+                </div>
+
+                <div class="raison-card" data-number="14">
+                    <div class="raison-number">14</div>
+                    <div class="raison-text">"Habaay" et toutes nos expressions qui nous appartiennent</div>
+                </div>
+
+                <div class="raison-card" data-number="15">
+                    <div class="raison-number">15</div>
+                    <div class="raison-text">Ta beauté qui transcende les photos, les mots, le temps</div>
+                </div>
+
+                <div class="raison-card" data-number="16">
+                    <div class="raison-number">16</div>
+                    <div class="raison-text">Ta façon de me titiller, de me faire rire</div>
+                </div>
+
+                <div class="raison-card" data-number="17">
+                    <div class="raison-number">17</div>
+                    <div class="raison-text">Notre complicité de détectives qui résout les énigmes du monde</div>
+                </div>
+
+                <div class="raison-card" data-number="18">
+                    <div class="raison-number">18</div>
+                    <div class="raison-text">Les centaines d'appels où le temps s'arrête</div>
+                </div>
+
+                <div class="raison-card" data-number="19">
+                    <div class="raison-number">19</div>
+                    <div class="raison-text">Ton outfit qui tue, toujours, partout, sans effort</div>
+                </div>
+
+                <div class="raison-card" data-number="20">
+                    <div class="raison-number">20</div>
+                    <div class="raison-text">La façon dont tu m'as fait rire, même quand j'étais triste sans le dire</div>
+                </div>
+
+                <div class="raison-card" data-number="21">
+                    <div class="raison-number">21</div>
+                    <div class="raison-text">Parce que même à 68 ans (dans ta tête), tu seras toujours ma Sirah</div>
+                </div>
+
+                <div class="raison-card highlight" data-number="22">
+                    <div class="raison-number">22</div>
+                    <div class="raison-text">Parce que "All of me loves all of you" — et ça ne changera jamais</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== LETTRE D'AMOUR (sans enveloppe) ==================== -->
+    <section id="lettre" class="lettre-section section">
+        <div class="container">
+            <div class="lettre-wrapper">
+                <div class="lettre-paper" id="lettrePaper">
+                    <div class="lettre-header">
+                        <span class="lettre-date">Aujourd'hui et chaque jour</span>
+                        <h2>Siram,</h2>
+                    </div>
+
+                    <div class="lettre-body">
+                        <p class="typewriter-lettre" data-text="Je ne sais pas par où commencer. Peut-être par le fait que tu étais ma crush bien avant que nos voix se mêlent. Peut-être par cette course à la pharmacie qui a tout changé. Ou peut-être simplement par : je t'aime."></p>
+
+                        <p class="typewriter-lettre" data-text="Tu es la preuve que les belles âmes existent. Ta résilience face à la vie, cette confiance en toi que rien ne brise (Syndrome de l'imposteur), ta sincérité qui ne fait pas de compromis — tout en toi m'impressionne et m'humilie à la fois."></p>
+
+                        <p class="typewriter-lettre" data-text="De nos discussions passagères à nos heures H24, du tiramisu au Parc Hann, de la Brioche dorée aux enquêtes résolues — chaque instant avec toi est un chapitre que je relis en boucle."></p>
+
+                        <p class="typewriter-lettre" data-text="Tu portes ta culture comme une reine, tu lis comme une philosophe, tu réfléchis comme une psychologue, tu ris comme une enfant. Tu es tout ce que je n'osais pas espérer."></p>
+
+                        <p class="typewriter-lettre" data-text="À 22 ans — 68 — tu es plus belle que jamais. Plus forte. Plus toi. Et j'ai la chance incroyable de pouvoir le voir, le vivre, l'écrire."></p>
+
+                        <p class="typewriter-lettre" data-text="Im so thankful for having you in my life. Merci d'être ma lumière, ma SAFE PLACE, la plus belle chose qui me soit arrivée. Merci d'être toi."></p>
+
+                        <p class="typewriter-lettre" data-text="I love you To the moon, beyond and never back.  Notre histoire ne fait que commencer."></p>
+
+                        <p class="typewriter-lettre" data-text="All of me loves all of you."></p>
+                    </div>
+
+                    <div class="lettre-signature">
+                        <p>Ton forever,</p>
+                        <p class="signature-name">Falilou</p>
+                        <!-- REMPLACER : Ton prénom ici -->
+                    </div>
+
+                    <button class="btn-download" id="downloadLetter">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Télécharger la lettre en PDF
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== BOUTON AUGMENTER L'AMOUR ==================== -->
+    <section id="love-button" class="love-section section">
+        <div class="container center">
+            <h2 class="section-title">Clique pour Augmenter l'Amour</h2>
+            <p class="section-subtitle">Chaque clic = une pensée d'amour envoyée vers toi</p>
+
+            <div class="love-counter-wrapper">
+                <div class="love-heart" id="loveHeart">💜</div>
+                <div class="love-count" id="loveCount">0</div>
+                <p class="love-label">clics d'amour</p>
+            </div>
+
+            <button class="btn-love" id="btnLove">
+                <span class="btn-love-text">Clique ici 💜</span>
+                <span class="btn-love-particles"></span>
+            </button>
+
+            <p class="love-note">Je peux voir combien de fois tu as cliqué. Et chaque clic me fait sourire.</p>
+        </div>
+    </section>
+
+    <!-- ==================== FORMULAIRE SOUVENIRS ==================== -->
+    <<section id="souvenirs-form" class="souvenirs-form-section section">
+    <div class="container">
+        <h2 class="section-title center">Écris Notre Histoire</h2>
+        <p class="section-subtitle center">Tu as des souvenirs, des dates, des lieux, des photos ou vidéos qui te marquent ?<br>Partage-les avec moi pour enrichir ce site.</p>
+
+        <div class="form-wrapper">
+            <form id="souvenirsForm" class="souvenirs-form">
+                <div class="form-group">
+                    <label for="eventName">Nom de l'événement / souvenir</label>
+                    <input type="text" id="eventName" name="eventName" placeholder="Ex: Notre premier date au Calm Coffee" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="eventDate">Date</label>
+                        <input type="date" id="eventDate" name="eventDate">
+                    </div>
+                    <div class="form-group">
+                        <label for="eventLocation">Lieu</label>
+                        <input type="text" id="eventLocation" name="eventLocation" placeholder="Ex: Parc Hann">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="eventDesc">Description / Ce que ce moment signifie pour toi</label>
+                    <textarea id="eventDesc" name="eventDesc" rows="4" placeholder="Raconte ce souvenir, ce que tu as ressenti, pourquoi il compte..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="eventMedia">Photos / Vidéos (À envoyer séparément si fichier lourd)</label>
+                    <div class="file-upload">
+                        <input type="file" id="eventMedia" name="eventMedia" multiple accept="image/*,video/*">
+                        <div class="file-upload-label">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="17 8 12 3 7 8"/>
+                                <line x1="12" y1="3" x2="12" y2="15"/>
+                            </svg>
+                            <span>Glisse-dépose ou clique pour ajouter des fichiers</span>
+                        </div>
+                    </div>
+                    <div class="file-list" id="fileList"></div>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit" class="btn-primary">
+                        <span>Envoyer ce souvenir</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"/>
+                            <polygon points="22 2 15 22 11 13 2 9"/>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+   (function(){
+      // À REMPLACER PAR TA CLÉ PUBLIQUE TROUVÉE DANS TON COMPTE EMAILJS
+      emailjs.init("xjYbAKNcFgcdY2-pZ"); 
+   })();
+</script>
+
+<script type="text/javascript">
+document.getElementById('souvenirsForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Empêche la page de se recharger
+    
+    // Modification du bouton pendant l'envoi pour faire patienter
+    const btn = this.querySelector('button[type="submit"]');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = "<span>Envoi en cours...</span>";
+    
+    // Envoi via tes identifiants
+    emailjs.sendForm('service_anniversaire', 'template_ahiexrp', this)
+        .then(function() {
+            alert('Le souvenir a été envoyé avec succès !');
+            document.getElementById('souvenirsForm').reset(); // Vide les champs
+            btn.innerHTML = originalText; // Remet le bouton à la normale
+        }, function(error) {
+            alert('Erreur lors de l\'envoi : ' + JSON.stringify(error));
+            btn.innerHTML = originalText;
+        });
+});
+</script>
+
+                    <div class="form-note">
+                        <p>💌 Les souvenirs seront envoyés par email. Tu peux aussi m'envoyer directement tes fichiers préférés.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-quote">
+                    <p>"I LOVE YOU To the moon, beyond and never back."</p>
+                </div>
+                <div class="footer-names">
+                    <span>MA</span>
+                    <span class="footer-heart">💜</span>
+                    <span>Falilou</span>
+                    <!-- REMPLACER : Ton prénom ici -->
+                </div>
+                <div class="footer-year">
+                    <p>2026 — Et tous les autres à venir</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Confetti container -->
+    <div id="confetti-container" class="confetti-container"></div>
+     <script type="text/javascript">
+        document.getElementById('souvenirsForm').addEventListener('submit', function(event) {
+        event.preventDefault(); 
+        
+        // On utilise ici tes vrais identifiants
+        emailjs.sendForm('service_anniversaire', 'template_ahiexrp', this)
+            .then(function() {
+                alert('Souvenir envoyé avec succès !');
+                document.getElementById('souvenirsForm').reset(); // Vide le formulaire après l'envoi
+            }, function(error) {
+                alert('Échec de l\'envoi : ' + JSON.stringify(error));
+            });
+});
+</script>
+    <script src="js/main.js"></script>
+</body>
+</html>
